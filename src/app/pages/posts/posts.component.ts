@@ -20,4 +20,8 @@ export class PostsComponent implements OnInit {
     // });
   }
 
+  listenClick( id ){
+    console.log('Click en : ', id)
+  }
+
 }
